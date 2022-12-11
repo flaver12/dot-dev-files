@@ -1,0 +1,15 @@
+require("flaver.plugins-setup")
+require("flaver.core.options")
+require("flaver.core.keymaps")
+require("flaver.core.colorschema")
+
+-- plugins
+require("flaver.plugins.comment")
+require("flaver.plugins.nvim-tree")
+require("flaver.plugins.lualine")
+require("flaver.plugins.telescope")
+require("flaver.plugins.nvim-cmp")
+require("flaver.plugins.lsp.mason")
+require("flaver.plugins.lsp.lspsaga")
+require("flaver.plugins.lsp.lspconfig")
+require("flaver.plugins.lsp.null-ls")
